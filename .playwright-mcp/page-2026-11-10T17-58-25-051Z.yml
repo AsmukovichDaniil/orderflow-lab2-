@@ -1,0 +1,20 @@
+- generic [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "OrderFlow" [ref=f1e4] [cursor=pointer]:
+        - /url: /Orders
+      - link "Products" [ref=f1e5] [cursor=pointer]:
+        - /url: /Products
+      - link "API" [ref=f1e6] [cursor=pointer]:
+        - /url: /swagger
+      - link "Log in" [ref=f1e7] [cursor=pointer]:
+        - /url: /Login
+  - main [ref=f1e8]:
+    - heading "Log in" [level=1] [ref=f1e9]
+    - generic [ref=f1e11]:
+      - text: Username
+      - textbox "Username" [active] [ref=f1e12]
+      - text: Password
+      - textbox "Password" [ref=f1e13]
+      - button "Log in" [ref=f1e15]
+  - contentinfo [ref=f1e16]: OrderFlow 1.1 · build variant 2

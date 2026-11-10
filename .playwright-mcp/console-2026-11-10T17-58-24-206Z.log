@@ -1,0 +1,7 @@
+[     790ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5000/Login?ReturnUrl=%2FSupport:1
+[     791ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5000/site.css:1
+[     815ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5000/favicon.ico:1
+[   11948ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5000/site.css:1
+[  136562ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5000/site.css:1
+[  136563ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5000/Login:1
+[  146976ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5000/site.css:1

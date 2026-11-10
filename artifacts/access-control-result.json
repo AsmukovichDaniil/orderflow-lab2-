@@ -1,0 +1,87 @@
+{
+  "loginStatus": 200,
+  "who": {
+    "username": "bob",
+    "role": "customer",
+    "customerId": 2
+  },
+  "otherOrder": {
+    "status": 200,
+    "body": {
+      "id": 1,
+      "number": "OF-20260812-09301211",
+      "customerId": 1,
+      "customerName": "Alice Koval",
+      "status": "Shipped",
+      "promoCode": null,
+      "promoApplied": false,
+      "createdAtUtc": "2026-08-12T09:30:12",
+      "placedAtUtc": "2026-08-12T09:33:12",
+      "paidAtUtc": "2026-08-12T11:30:12",
+      "shippedAtUtc": "2026-08-13T09:30:12",
+      "cancelledAtUtc": null,
+      "lines": [
+        {
+          "productId": 10,
+          "productName": "Office chair",
+          "unitPrice": 189,
+          "quantity": 2,
+          "lineTotal": 378
+        },
+        {
+          "productId": 8,
+          "productName": "Desk lamp",
+          "unitPrice": 45,
+          "quantity": 1,
+          "lineTotal": 45
+        }
+      ],
+      "totals": {
+        "subtotal": 423,
+        "discount": 0,
+        "shipping": 50,
+        "net": 423,
+        "vat": 94.60000000000001,
+        "total": 567.6
+      }
+    }
+  },
+  "otherInvoice": {
+    "status": 200,
+    "body": {
+      "number": "INV-20260812-09301211",
+      "issuedAtUtc": "2026-08-12T11:30:12",
+      "orderNumber": "OF-20260812-09301211",
+      "billToName": "Alice Koval",
+      "billToAddress": "Khreshchatyk St 22, apt 5, Kyiv, Ukraine",
+      "lines": [
+        {
+          "productId": 10,
+          "productName": "Office chair",
+          "unitPrice": 189,
+          "quantity": 2,
+          "lineTotal": 378
+        },
+        {
+          "productId": 8,
+          "productName": "Desk lamp",
+          "unitPrice": 45,
+          "quantity": 1,
+          "lineTotal": 45
+        }
+      ],
+      "totals": {
+        "subtotal": 423,
+        "discount": 0,
+        "shipping": 50,
+        "net": 423,
+        "vat": 94.60000000000001,
+        "total": 567.6
+      }
+    }
+  },
+  "profileControl": {
+    "status": 403,
+    "body": ""
+  }
+}

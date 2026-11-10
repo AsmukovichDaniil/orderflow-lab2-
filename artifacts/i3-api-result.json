@@ -1,0 +1,229 @@
+{
+  "products": [
+    {
+      "id": 12,
+      "name": "Standing desk",
+      "price": 499,
+      "stock": 10
+    },
+    {
+      "id": 11,
+      "name": "Monitor 27\"",
+      "price": 329,
+      "stock": 9
+    },
+    {
+      "id": 10,
+      "name": "Office chair",
+      "price": 189,
+      "stock": 15
+    },
+    {
+      "id": 1,
+      "name": "Paper clip",
+      "price": 0.1,
+      "stock": 500
+    }
+  ],
+  "draft": {
+    "id": 22,
+    "number": "OF-20261110-18015672",
+    "customerId": 1,
+    "customerName": "Alice Koval",
+    "status": "Draft",
+    "promoCode": null,
+    "promoApplied": false,
+    "createdAtUtc": "2026-11-10T18:01:56.0082986Z",
+    "placedAtUtc": null,
+    "paidAtUtc": null,
+    "shippedAtUtc": null,
+    "cancelledAtUtc": null,
+    "lines": [
+      {
+        "productId": 12,
+        "productName": "Standing desk",
+        "unitPrice": 499,
+        "quantity": 1,
+        "lineTotal": 499
+      },
+      {
+        "productId": 11,
+        "productName": "Monitor 27\"",
+        "unitPrice": 329,
+        "quantity": 1,
+        "lineTotal": 329
+      },
+      {
+        "productId": 10,
+        "productName": "Office chair",
+        "unitPrice": 189,
+        "quantity": 1,
+        "lineTotal": 189
+      },
+      {
+        "productId": 1,
+        "productName": "Paper clip",
+        "unitPrice": 0.1,
+        "quantity": 1,
+        "lineTotal": 0.1
+      }
+    ],
+    "totals": {
+      "subtotal": 1017.1,
+      "discount": 152.57000000000002,
+      "shipping": 50,
+      "net": 864.53,
+      "vat": 182.906,
+      "total": 1097.436
+    }
+  },
+  "placed": {
+    "id": 22,
+    "number": "OF-20261110-18015672",
+    "customerId": 1,
+    "customerName": "Alice Koval",
+    "status": "Placed",
+    "promoCode": null,
+    "promoApplied": false,
+    "createdAtUtc": "2026-11-10T18:01:56.0082986",
+    "placedAtUtc": "2026-11-10T18:01:56.987035Z",
+    "paidAtUtc": null,
+    "shippedAtUtc": null,
+    "cancelledAtUtc": null,
+    "lines": [
+      {
+        "productId": 12,
+        "productName": "Standing desk",
+        "unitPrice": 499,
+        "quantity": 1,
+        "lineTotal": 499
+      },
+      {
+        "productId": 11,
+        "productName": "Monitor 27\"",
+        "unitPrice": 329,
+        "quantity": 1,
+        "lineTotal": 329
+      },
+      {
+        "productId": 10,
+        "productName": "Office chair",
+        "unitPrice": 189,
+        "quantity": 1,
+        "lineTotal": 189
+      },
+      {
+        "productId": 1,
+        "productName": "Paper clip",
+        "unitPrice": 0.1,
+        "quantity": 1,
+        "lineTotal": 0.1
+      }
+    ],
+    "totals": {
+      "subtotal": 1017.1,
+      "discount": 152.57000000000002,
+      "shipping": 50,
+      "net": 864.53,
+      "vat": 182.906,
+      "total": 1097.436
+    }
+  },
+  "paid": {
+    "id": 22,
+    "number": "OF-20261110-18015672",
+    "customerId": 1,
+    "customerName": "Alice Koval",
+    "status": "Paid",
+    "promoCode": null,
+    "promoApplied": false,
+    "createdAtUtc": "2026-11-10T18:01:56.0082986",
+    "placedAtUtc": "2026-11-10T18:01:56.987035",
+    "paidAtUtc": "2026-11-10T18:01:57.0369224Z",
+    "shippedAtUtc": null,
+    "cancelledAtUtc": null,
+    "lines": [
+      {
+        "productId": 12,
+        "productName": "Standing desk",
+        "unitPrice": 499,
+        "quantity": 1,
+        "lineTotal": 499
+      },
+      {
+        "productId": 11,
+        "productName": "Monitor 27\"",
+        "unitPrice": 329,
+        "quantity": 1,
+        "lineTotal": 329
+      },
+      {
+        "productId": 10,
+        "productName": "Office chair",
+        "unitPrice": 189,
+        "quantity": 1,
+        "lineTotal": 189
+      },
+      {
+        "productId": 1,
+        "productName": "Paper clip",
+        "unitPrice": 0.1,
+        "quantity": 1,
+        "lineTotal": 0.1
+      }
+    ],
+    "totals": {
+      "subtotal": 1017.1,
+      "discount": 152.57000000000002,
+      "shipping": 50,
+      "net": 864.53,
+      "vat": 182.906,
+      "total": 1097.436
+    }
+  },
+  "invoice": {
+    "number": "INV-20261110-18015672",
+    "issuedAtUtc": "2026-11-10T18:01:57.0369224",
+    "orderNumber": "OF-20261110-18015672",
+    "billToName": "Alice Koval",
+    "billToAddress": "Khreshchatyk St 22, apt 5, Kyiv, Ukraine",
+    "lines": [
+      {
+        "productId": 12,
+        "productName": "Standing desk",
+        "unitPrice": 499,
+        "quantity": 1,
+        "lineTotal": 499
+      },
+      {
+        "productId": 11,
+        "productName": "Monitor 27\"",
+        "unitPrice": 329,
+        "quantity": 1,
+        "lineTotal": 329
+      },
+      {
+        "productId": 10,
+        "productName": "Office chair",
+        "unitPrice": 189,
+        "quantity": 1,
+        "lineTotal": 189
+      },
+      {
+        "productId": 1,
+        "productName": "Paper clip",
+        "unitPrice": 0.1,
+        "quantity": 1,
+        "lineTotal": 0.1
+      }
+    ],
+    "totals": {
+      "subtotal": 1017.1,
+      "discount": 152.56,
+      "shipping": 50,
+      "net": 864.54,
+      "vat": 182.90800000000002,
+      "total": 1097.4479999999999
+    }
+  }
+}
