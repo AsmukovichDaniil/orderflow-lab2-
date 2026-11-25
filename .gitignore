@@ -7,3 +7,18 @@ obj/
 .idea/
 *.user
 publish/
+
+# Local assignment inputs and working notes (keep out of the public repo)
+/завдання.pdf
+/приклад звіту.docx
+/план.md
+/гітхаб.md
+/lab2.docx
+/example_text.txt
+/task_text.txt
+
+# Temporary browser captures, Office lock files, and review images
+/.playwright-mcp/
+~$*.docx
+~WRL*.tmp
+/artifacts/github-ci-*.png
